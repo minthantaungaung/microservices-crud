@@ -1,0 +1,51 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/catalog/{everything}",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      //role based auth
+      "RouteClaimsRequirement": {
+        "Role": "Admin"
+      },
+      //ratelimit options
+      //"RateLimitOptions": {
+      //  "ClientWhitelist": [],
+      //  "EnableRateLimiting": true,
+      //  "Period": "60s",
+      //  "PeriodTimespan": 60,
+      //  "Limit": 1
+      //},
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 11796
+        }
+      ],
+      "UpstreamPathTemplate": "/api/gateway/catalog/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 59179
+        }
+      ],
+      "UpstreamPathTemplate": "/api/gateway/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:21382",
+    "RateLimitOptions": {
+      "QuotaExceededMessage": "Request not allowed",
+      "HttpStatusCode": 909
+    }
+  }
+}

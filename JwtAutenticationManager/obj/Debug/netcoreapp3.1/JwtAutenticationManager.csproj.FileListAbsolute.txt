@@ -1,0 +1,10 @@
+E:\My Collection\Project\Microservice\Codigo\Codigo\JwtAutenticationManager\obj\Debug\netcoreapp3.1\JwtAutenticationManager.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Collection\Project\Microservice\Codigo\Codigo\JwtAutenticationManager\obj\Debug\netcoreapp3.1\JwtAutenticationManager.AssemblyInfoInputs.cache
+E:\My Collection\Project\Microservice\Codigo\Codigo\JwtAutenticationManager\obj\Debug\netcoreapp3.1\JwtAutenticationManager.AssemblyInfo.cs
+E:\My Collection\Project\Microservice\Codigo\Codigo\JwtAutenticationManager\obj\Debug\netcoreapp3.1\JwtAutenticationManager.csproj.CoreCompileInputs.cache
+E:\My Collection\Project\Microservice\Codigo\Codigo\JwtAutenticationManager\bin\Debug\netcoreapp3.1\JwtAutenticationManager.deps.json
+E:\My Collection\Project\Microservice\Codigo\Codigo\JwtAutenticationManager\bin\Debug\netcoreapp3.1\JwtAutenticationManager.dll
+E:\My Collection\Project\Microservice\Codigo\Codigo\JwtAutenticationManager\bin\Debug\netcoreapp3.1\JwtAutenticationManager.pdb
+E:\My Collection\Project\Microservice\Codigo\Codigo\JwtAutenticationManager\obj\Debug\netcoreapp3.1\JwtAutenticationManager.csproj.AssemblyReference.cache
+E:\My Collection\Project\Microservice\Codigo\Codigo\JwtAutenticationManager\obj\Debug\netcoreapp3.1\JwtAutenticationManager.dll
+E:\My Collection\Project\Microservice\Codigo\Codigo\JwtAutenticationManager\obj\Debug\netcoreapp3.1\JwtAutenticationManager.pdb
